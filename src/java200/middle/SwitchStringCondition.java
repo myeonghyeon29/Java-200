@@ -11,7 +11,7 @@ public class SwitchStringCondition {
 	private static double toMoney(String c) {
 		double tot = 0.0;
 		switch(c) {
-		case "USD": tot = 1126.5; break;
+		case "USD": tot = 1120.5; break;
 		case "JPY": tot = 110.6; break;
 		case "CNY": tot = 10.5; break;
 		default: tot = 1; break;
