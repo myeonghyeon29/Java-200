@@ -1,7 +1,7 @@
 package java200.middle;
 
 public class JCalendar {
-	
+	// 윤년 판별 
 	public boolean isLeapYear(int year) {
 		boolean isS = false;
 		if ( ((year%4 == 0) && (year%100 != 0)) 
