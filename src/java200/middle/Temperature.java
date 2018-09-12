@@ -3,7 +3,7 @@ package java200.middle;
 public class Temperature {
 
 	public static void main(String[] args) {
-		// 0도 부터 100도까지 변경
+		// 0도 부터 100도까지 변경 
 		for (int i=0; i<101; i++) {
 			double fahrenheit = 9.0/5*i + 32;
 			System.out.printf("섭씨 %d도 = 화씨 %.2f도 \n", i, fahrenheit);
