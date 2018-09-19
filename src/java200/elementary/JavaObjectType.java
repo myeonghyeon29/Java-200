@@ -4,7 +4,7 @@ import java.util.Calendar;
 import java.util.Date;
 
 public class JavaObjectType {
-
+	//자바 참조 타입 사용
 	public static void main(String[] args) {
 		int[] m = {1, 2, 3};
 		int[] n = new int[] {1, 2, 3};
