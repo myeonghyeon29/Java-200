@@ -3,14 +3,17 @@ package java200.elementary;
 public class Letters {
 
 	public static void main(String[] args) {
-		char a = '´â';
-		String letter = "µ¿ÇØ ¹°°ú ¹éµÎ»êÀÌ ¸¶¸£°í ´âµµ·Ï ÇÏ´À´ÔÀÌ º¸¿ìÇÏ»ç ¿ì¸®³ª¶ó ¸¸¼¼";
+		char a = 'ë‹³';
+		String letter = "ë™í•´ ë¬¼ê³¼ ë°±ë‘ì‚°ì´ ë§ˆë¥´ê³  ë‹³ë„ë¡ í•˜ëŠë‹˜ì´ ë³´ìš°í•˜ì‚¬ ìš°ë¦¬ë‚˜ë¼ ë§Œì„¸";
+		// ë¬¸ìì—´ì˜ ê¸¸ì´ = length()
 		int letterNumber = letter.length();
+		// 'ë‹³'ì˜ ìœ„ì¹˜ ë°˜í™˜, indexOf('A')
 		int loc = letter.indexOf(a);
-		System.out.printf("\"%s\"=> %dÀÚÀÌ¸ç , %cÀº %d¹øÂ° ÀÖ´Ù.\n", letter,
+		System.out.printf("\"%s\"=> %dìì´ë©° , %cì€ %dë²ˆì§¸ ìˆë‹¤.\n", letter,
 				letterNumber, a, loc);
+		// në²ˆì§¸ ë¬¸ì ë°˜í™˜ charAt(n)
 		char b = letter.charAt(loc);
-		System.out.printf("\"%s\"ÀÇ %d¹øÂ° ¹®ÀÚ´Â '%c'ÀÌ´Ù.", letter, loc, b);
+		System.out.printf("\"%s\"ì˜ %dë²ˆì§¸ ë¬¸ìëŠ” '%c'ì´ë‹¤.", letter, loc, b);
 
 	}
 
