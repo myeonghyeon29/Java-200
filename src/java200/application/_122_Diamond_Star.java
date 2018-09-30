@@ -9,26 +9,30 @@ public class _122_Diamond_Star {
 	public static void printStar(int n) {
 		char star = '*';
 		char space = ' ';
-		int maxStar = n;
-		int spaceMax = n / 2 + 1;
-		int mid = n / 2;
+		int maxStar = 1;		// maxStar는 n까지 증가
+		int spaceMax = n / 2;	// 최대 공백
+		int mid = n / 2;		// 위 아래 삼각형을 나누는 기준
 		
 		for (int i=0; i<n; i++) {
+			// i<mid 일 때 위 삼각형 출력
 			if (i < mid) {
+				// spaceMax만큼 공백 출력
 				for (int j=0; j<spaceMax; j++) {
 					System.out.print(space);
 				}
 				
-				for (int j=0; j<=i * 2; j++) {
+				// 최대 별 만큼 * 출력
+				for (int j=0; j< maxStar; j++) {
 					System.out.print(star);
 				}
 				
 				System.out.println();
-				spaceMax--;
+				maxStar += 2;		// 최대 별의 개수를 증가시킨다
+				spaceMax--;			// 최대 공백을 출력한다
 			}
-			else {
+			else { // i>=mid 일 때 역 삼각형 출력
 				// 공백을 출력한다
-				for (int j=0; j<i- (n / 2 - 1); j++) {
+				for (int j=0; j<spaceMax; j++) {
 					System.out.print(space);
 				}
 							
@@ -39,12 +43,13 @@ public class _122_Diamond_Star {
 							
 				// 최대  *의 개수를 줄여준다
 				maxStar -= 2;
+				spaceMax++;
 				System.out.println();
 			}
 		}
 	}
 	
 	public static void main(String[] args) {
-		printStar(9);
+		printStar(13);
 	}
 }
