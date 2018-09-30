@@ -29,7 +29,7 @@ public class _121_StarPoint {
 	}
 
 	public static void main(String[] args) {
-		printStar(8);
+		printStar(8);  
 	}
 
 }
