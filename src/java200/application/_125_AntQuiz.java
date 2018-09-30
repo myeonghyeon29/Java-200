@@ -1,6 +1,6 @@
 package java200.application;
 
-/*
+/*  
  * for 문을 이용해 개미 수열 만들기
  * Object.valueOf()는 Object형으로 형 변환
  */
