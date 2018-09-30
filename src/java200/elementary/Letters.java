@@ -3,14 +3,14 @@ package java200.elementary;
 public class Letters {
 
 	public static void main(String[] args) {
-		char a = '´â';
-		String letter = "µ¿ÇØ ¹°°ú ¹éµÎ»êÀÌ ¸¶¸£°í ´âµµ·Ï ÇÏ´À´ÔÀÌ º¸¿ìÇÏ»ç ¿ì¸®³ª¶ó ¸¸¼¼";
+		char a = 'ê°’';
+		String letter = "ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Î»ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½âµµï¿½ï¿½ ï¿½Ï´ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ï»ï¿½ ï¿½ì¸®ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½";
 		int letterNumber = letter.length();
 		int loc = letter.indexOf(a);
-		System.out.printf("\"%s\"=> %dÀÚÀÌ¸ç , %cÀº %d¹øÂ° ÀÖ´Ù.\n", letter,
+		System.out.printf("\"%s\"=> %dï¿½ï¿½ï¿½Ì¸ï¿½ , %cï¿½ï¿½ %dï¿½ï¿½Â° ï¿½Ö´ï¿½.\n", letter,
 				letterNumber, a, loc);
 		char b = letter.charAt(loc);
-		System.out.printf("\"%s\"ÀÇ %d¹øÂ° ¹®ÀÚ´Â '%c'ÀÌ´Ù.", letter, loc, b);
+		System.out.printf("\"%s\"ï¿½ï¿½ %dï¿½ï¿½Â° ï¿½ï¿½ï¿½Ú´ï¿½ '%c'ï¿½Ì´ï¿½.", letter, loc, b);
 
 	}
 
