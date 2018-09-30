@@ -12,7 +12,7 @@ public class _121_StarPoint {
 		
 		// n번(줄) 반복한다
 		for (int i=0; i<n; i++) {
-			// 공백을 n번 줄 만큼 출력한다
+			// 공백을 n번 줄 만큼 출력한다  
 			for (int j=0; j<i; j++) {
 				System.out.print(space);
 			}
