@@ -1,14 +1,14 @@
 package java200.middle;
 
-public class BioSwitch {
+public class _37_BioSwitch {
 
 	public static String textInfor(PEI index, double value) {
 		String result = "";
 		switch (index) {
-			case PHYSICAL: result = "½ÅÃ¼ Áö¼ö:"; break;
-			case EMOTIONAL: result = "°¨Á¤ Áö¼ö:"; break;
-			case INTELLECTUAL: result = "Áö¼º Áö¼ö:"; break;
-			default: result = "¹Ì°áÁ¤:"; break;
+			case PHYSICAL: result = "ì‹ ì²´ ì§€ìˆ˜:"; break;
+			case EMOTIONAL: result = "ê°ì • ì§€ìˆ˜:"; break;
+			case INTELLECTUAL: result = "ì§€ì„± ì§€ìˆ˜:"; break;
+			default: result = "ï¿½Ì°ï¿½ï¿½ï¿½:"; break;
 		}
 		
 		return result + (value*100);
