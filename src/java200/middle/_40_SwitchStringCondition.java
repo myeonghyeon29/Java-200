@@ -1,6 +1,6 @@
 package java200.middle;
 
-public class SwitchStringCondition {
+public class _40_SwitchStringCondition {
 
 	public static void main(String[] args) {
 		String money = "USD";
