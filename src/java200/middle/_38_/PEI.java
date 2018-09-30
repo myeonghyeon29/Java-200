@@ -1,4 +1,4 @@
-package java200.middle;
+package java200.middle._38_;
 
 public enum PEI {
 	PHYSICAL(23), EMOTIONAL(28), INTELLECTUAL(33);

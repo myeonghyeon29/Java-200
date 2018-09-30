@@ -1,6 +1,6 @@
-package java200.middle;
+package java200.middle._38_;
 
-public class _37_BioSwitch {
+public class BioSwitch {
 
 	public static String textInfor(PEI index, double value) {
 		String result = "";
