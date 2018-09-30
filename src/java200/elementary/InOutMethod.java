@@ -1,29 +1,4 @@
-<<<<<<< HEAD
-package java200.elementary;
 
-import java.util.Scanner;
-
-public class InOutMethod {
-
-	public static void main(String[] args) {
-		Scanner scann = new Scanner(System.in);
-		
-		System.out.print("Á¤¼ö ÀÔ·Â: ");
-		int choice = scann.nextInt();
-		System.out.println(choice);
-		
-		System.out.print("½Ç¼ö ÀÔ·Â: ");
-		double rchoice = scann.nextDouble();
-		System.out.println(rchoice);
-		
-		System.out.print("¹®ÀÚ¿­ ÀÔ·Â: ");
-		String schoice = scann.next();
-		System.out.println(schoice);
-
-	}
-
-}
-=======
 package java200.elementary;
 
 // Scanner í´ëž˜ìŠ¤ë¥¼ import
@@ -53,4 +28,4 @@ public class InOutMethod {
 	}
 
 }
->>>>>>> refs/remotes/origin/master
+
