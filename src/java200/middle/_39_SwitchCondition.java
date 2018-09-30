@@ -1,6 +1,6 @@
 package java200.middle;
 
-public class SwitchCondition {
+public class _39_SwitchCondition {
 
 	public static void main(String[] args) {
 		char a = 'J';
