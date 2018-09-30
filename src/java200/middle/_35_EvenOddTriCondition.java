@@ -1,6 +1,6 @@
 package java200.middle;
 
-public class EvenOddTriCondition {
+public class _35_EvenOddTriCondition {
 
 	public static void main(String[] args) {
 		int temp = 99;
