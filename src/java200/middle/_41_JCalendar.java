@@ -1,7 +1,7 @@
 
 package java200.middle;
 
-public class JCalendar {
+public class _41_JCalendar {
 	// 윤년 판별 
 	public boolean isLeapYear(int year) {
 		boolean isS = false;
@@ -14,7 +14,7 @@ public class JCalendar {
 	}
 
 	public static void main(String[] args) {
-		JCalendar hc = new JCalendar();
+		_41_JCalendar hc = new _41_JCalendar();
 		System.out.println(hc.isLeapYear(2018));
 
 	}
